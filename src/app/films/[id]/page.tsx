@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       robots: { index: false, follow: false },
       openGraph: { images: [] },
     };
+  const shareTitle = `${film.title}｜まどマギ廻天のフィルムを投稿しよう！`;
   return {
     title: `${film.title} | フィルム #${film.id}`,
     description:
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `${film.name}さんのフィルム。お気に入りのひとこまに「いいね」を。`,
     alternates: { canonical: `/films/${film.id}` },
     openGraph: {
-      title: film.title,
+      title: shareTitle,
       url: `/films/${film.id}`,
       images: [
         {
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: film.title,
+      title: shareTitle,
       images: [`/media/${film.id}`],
     },
   };
