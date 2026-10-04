@@ -27,7 +27,6 @@ export default async function Home() {
           priority
         />
         <h1>最高のフィルムを決めよう</h1>
-        <p>あなたの手元に届いた、たったひとつの物語。</p>
         <div className="intro-actions">
           <Link className="button primary" href="/upload">
             <Plus size={18} />
@@ -39,7 +38,6 @@ export default async function Home() {
         </div>
         <div className="intro-note">
           <span>ログイン不要</span>
-          <span>あなたの「いいね」を一枚に</span>
         </div>
       </section>
       <div className="spoiler-bar">
@@ -50,7 +48,7 @@ export default async function Home() {
       <section className="section wrap">
         <SectionHeading
           label="01 / NEW ARRIVALS"
-          title="届いたばかりのフィルム"
+          title="新着フィルム"
           href="/films"
         />
         <Gallery films={latest} />
@@ -59,18 +57,18 @@ export default async function Home() {
         <div className="wrap section">
           <SectionHeading
             label="02 / MOST LOVED"
-            title="みんなが選んだひとこま"
+            title="人気のフィルム"
             href="/films?sort=popular"
           />
           <Gallery films={popular} />
         </div>
       </section>
       <section className="care-banner wrap">
-        <span className="eyebrow">KEEP YOUR MEMORIES</span>
+        <span className="eyebrow">FILM CARE</span>
         <div>
-          <h2>大切なフィルムを、これからも。</h2>
+          <h2>フィルムの開封・保存</h2>
           <p>
-            開封するときも、しまうときも。小さな気づかいで、ひとこまを長く美しく。
+            ピンセットの使い方や保護袋の選び方、保管時の注意点。
           </p>
         </div>
         <Link className="text-link" href="/guide">

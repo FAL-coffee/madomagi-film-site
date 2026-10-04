@@ -56,7 +56,6 @@ export default function RootLayout({
         <main id="main">{children}</main>
         <footer className="footer">
           <div>
-            <span className="serif">ひとこまに、魔法を。</span>
             <p>
               魔法少女まどか☆マギカ〈ワルプルギスの廻天〉
               <br />

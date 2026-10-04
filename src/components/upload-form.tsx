@@ -130,7 +130,7 @@ export function UploadForm() {
           name="title"
           required
           maxLength={80}
-          placeholder="このひとこまに、名前をつけるなら"
+          placeholder="例：まどかのアップ"
         />
         <label htmlFor="name">
           投稿者名 <span>任意</span>
@@ -150,7 +150,7 @@ export function UploadForm() {
           name="caption"
           rows={4}
           maxLength={1000}
-          placeholder="お気に入りのポイントや、出会ったときの気持ちを。"
+          placeholder="シーンの説明など"
         />
         <label className="consent">
           <input type="checkbox" name="consent" required />

@@ -8,8 +8,7 @@ export default function Guide() {
     <article className="wrap section narrow prose">
       <div className="page-heading">
         <span className="eyebrow">FILM CARE</span>
-        <h1>大切なひとこまを守るために</h1>
-        <p>フィルムの開封・撮影・保存の注意点</p>
+        <h1>フィルムの開封・撮影・保存</h1>
       </div>
       <section>
         <h2>01 / 開封するとき</h2>

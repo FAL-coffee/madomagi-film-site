@@ -9,8 +9,7 @@ export function Gallery({ films }: { films: Film[] }) {
       <div className="empty">
         <FilmIcon size={34} strokeWidth={1} />
         <div>
-          <h3>最初のひとこまを、ここに。</h3>
-          <p>まだフィルムが投稿されていません。</p>
+          <h3>まだフィルムが投稿されていません</h3>
         </div>
         <Link href="/upload">
           フィルムを投稿する <ArrowRight size={16} />

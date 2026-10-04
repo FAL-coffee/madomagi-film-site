@@ -8,9 +8,8 @@ export default function Upload() {
   return (
     <div className="wrap section narrow">
       <div className="page-heading">
-        <span className="eyebrow">ADD YOUR FRAME</span>
-        <h1>あなたのひとこまを。</h1>
-        <p>大切なフィルムを、みんなのコレクションへ。</p>
+        <span className="eyebrow">UPLOAD</span>
+        <h1>フィルムを投稿する</h1>
       </div>
       <UploadForm />
       <p className="form-footnote">

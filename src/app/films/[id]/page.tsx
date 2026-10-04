@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${film.title} | フィルム #${film.id}`,
     description:
       film.caption ||
-      `${film.name}さんのフィルム。お気に入りのひとこまに「いいね」を。`,
+      `${film.name}さんが投稿したフィルム。`,
     alternates: { canonical: `/films/${film.id}` },
     openGraph: {
       title: shareTitle,

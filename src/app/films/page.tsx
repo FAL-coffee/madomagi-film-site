@@ -31,7 +31,7 @@ export default async function Films({ searchParams }: Props) {
       <div className="page-heading">
         <span className="eyebrow">THE COLLECTION</span>
         <h1>{sort === "popular" ? "人気のフィルム" : "新着フィルム"}</h1>
-        <p>{total} 枚のフィルム、それぞれの物語。</p>
+        <p>投稿数：{total} 枚</p>
       </div>
       <div className="collection-toolbar">
         <div className="tabs">
