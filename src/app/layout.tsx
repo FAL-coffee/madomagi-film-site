@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import Link from "next/link";
 import { Film, Plus, ArrowUpRight } from "lucide-react";
 import { description, siteName, siteUrl } from "@/lib/site";
@@ -79,6 +80,7 @@ export default function RootLayout({
             投稿画像の権利はそれぞれの権利者に帰属します。
           </small>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
